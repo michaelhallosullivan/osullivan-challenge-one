@@ -1,2 +1,1 @@
-# osullivan-challenge-one
-Challenge for Module 1
+# Code Refactor Starter Code
