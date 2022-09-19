@@ -1,3 +1,4 @@
+/* Universal selector affects all elements on the webpage */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,8 @@ body {
     background-color: #d9dcd6;
 }
 
+
+/* Changed the DIV class to HEADER */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,11 +23,13 @@ h1 {
     font-size: 48px;
 }
 
+/* Changed the SPAN element (non-semantic) to an EM element with a font-style of normal  */
 #seo {
     color: #d9dcd6;
     font-style: normal;
 }
 
+/* Affects the positioning and style of the navigation bar */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -44,6 +49,7 @@ a {
     text-decoration: none;
 }
 
+/* Turned the background image into an image to add an alt tag and increase accessibility of users */
 #hero {
     height: 800px;
     width: 100%;
@@ -60,11 +66,13 @@ main {
     margin-left: 20px;
 }
 
+/* Consolidated H2 tags into one section of code */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Consolidated the 3 main articles into one section of code */
 .articles {
     margin-bottom: 20px;
     padding: 50px;
@@ -74,6 +82,7 @@ h2 {
     color: #ffffff;
 }
 
+/* Affects image positioning in the main articles */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -86,6 +95,7 @@ h2 {
     max-height: 200px;
 }
 
+/* Consolidated the 3 main benefits into one section of code */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -113,6 +123,7 @@ h2 {
     max-width: 150px;
 }
 
+/* Affects font and positioning of footer section */
 footer {
     padding: 30px;
     clear: both;
